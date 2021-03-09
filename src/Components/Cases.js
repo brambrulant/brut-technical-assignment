@@ -28,11 +28,13 @@ export default function Cases() {
   useEffect(() => {
     fetchCase();
     console.log("hello from useEffect");
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
     console.log("hello from useEffect2");
     acfParser();
+    // eslint-disable-next-line
   }, [thisCase]);
 
   const acfParser = () => {
