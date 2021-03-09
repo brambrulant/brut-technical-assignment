@@ -1,0 +1,27 @@
+.btn {
+  font-family: Hack, monospace;
+  background: rgb(34, 34, 34);
+  color: rgb(255, 239, 228);
+  cursor: pointer;
+  font-size: 1em;
+  padding: 1rem;
+  border: 2px;
+  transition: all 0.5s;
+  /* border-radius: 10px; */
+  width: auto;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.btn:hover {
+  background: rgb(255, 239, 228);
+  color: rgb(34, 34, 34);
+  /* border-radius: 10px; */
+  box-shadow: 10px 10px black;
+  padding: 1rem 2rem 1rem 1rem;
+  transition: all 1s;
+}
+.btn:hover::after {
+  content: " >";
+  transition: content 2.5s;
+}

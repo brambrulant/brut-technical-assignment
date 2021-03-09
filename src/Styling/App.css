@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Hack, monospace;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Hack, cursive;
+}

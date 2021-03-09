@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(169, 200, 255);
+  border: 3px solid rgb(109, 140, 195);
+  box-shadow: 10px 10px grey;
+  color: rgb(42, 42, 42);
+  width: 30%;
+  height: 40rem;
+  text-align: center;
+  overflow: scroll;
+  margin: 1%;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+.card:hover {
+  background-color: rgb(149, 180, 235);
+  color: rgb(42, 42, 42);
+  box-shadow: 10px 10px black;
+  padding: 0.8%;
+  margin: 0.2%;
+  transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 100%;
+  }
+}
+.cardContent {
+  padding: 2%;
+  margin: 10% 10% 10%;
+  border: 3px solid rgb(109, 140, 195);
+}
+
+.cardHeader {
+  padding: 5% 10% 0%;
+}
